@@ -14,10 +14,6 @@ for i in range(100):
 
     dog[0] = dog[0] - learning_rate * gradient_x
 
-    print(dog[0])
-    print(distance)
-    print(Loss)
-
 
 #정확히 0이 되지 않는다. 학습률에 따라 기울기가 0이 되는 순간을 넘어서 더 큰 값을 학습할 수도 있기 때문이다
 #0.01로 바꾸면 한 번 학습할 때 기울기와 loss도 조금씩밖에 조정되지 않지만, 그만큼 넘어가는 가능성도 줄어든다.
